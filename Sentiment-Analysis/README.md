@@ -102,6 +102,7 @@ The result is as following:
 
 Findings:
 1. All experiments suffer from the overfitting, indicated by good training performance, where validation performance does not improve
+   
 | ![Learning Curve for LSTM + Embedding Layer](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/lstm_embedding_learning_curve.png?raw=true) |
 |:--:| 
 | Learning Curve for LSTM + Embedding Layer |
