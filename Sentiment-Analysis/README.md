@@ -26,22 +26,32 @@ The tweets related to the candidates were collected from Twitter and they were l
 1. Candidates names
 A quick count of the candidates names mentioned in each tweet shows that both candidates are balancely mentioned for each sentiment.
 
-![Candidates names distribution at each sentiment](/images/president_names_exploration.png "Candidates names distribution at each sentiment")
+| ![Candidates names distribution at each sentiment](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/president_names_exploration.PNG?raw=true) |
+|:--:| 
+| Candidates names distribution at each sentiment |
 
 
 2. Hashtags
 
 Similarly, counting the hashtags with respect to the sentiment of the texts shows that hashtags in the texts are inconclusive to a specific sentiment.
 
-![Top 5 hashtags for each sentiment](/images/hasthags_exploration.png "Top 5 hashtags for each sentiment")
+| ![Top 5 hashtags for each sentiment](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/hasthags_exploration.png?raw=true) |
+|:--:| 
+| Top 5 hashtags for each sentiment |
 
 
 3. WordCloud
 
 Using the WordCloud to see the most frequent words in with respect to the candidate and its sentiment.
 
-![Wordcloud for Jokowi with positive sentiment](/images/wordcloud_jokowi_positif.png "Wordcloud for Jokowi with positive sentiment")
-![Wordcloud for Prabowo with positive sentiment](/images/wordcloud_prabowo_positif.png "Wordcloud for Prabowo with positive sentiment")
+| ![Wordcloud for Jokowi with positive sentiment](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/wordcloud_jokowi_positif.png?raw=true) |
+|:--:| 
+| Wordcloud for Jokowi with positive sentiment |
+
+| ![Wordcloud for Prabowo with positive sentiment](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/wordcloud_prabowo_positif.png?raw=true) |
+|:--:| 
+| Wordcloud for Prabowo with positive sentiment |
+
 
 Findings:
 - There are a lot of stopwords, e.g. conjucntions in the text
@@ -51,7 +61,10 @@ Findings:
 
 ## Text Preprocessing
 
-![Text cleaning workflow](/images/text_cleaning.png "Text cleaning workflow")
+| ![Text cleaning workflow](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/text_cleaning.png?raw=true) |
+|:--:| 
+| Text cleaning workflow |
+
 
 The steps in text cleaning:
 1. Remove any url appears in the text
@@ -66,11 +79,11 @@ The steps in text cleaning:
 5.b. If the phares is a verb, lemmatize it
 
 
-*** Data Splitting ***
+*** Data Splitting ***  
 Test size is 20% of the dataset, and the sampling strategy is stratified sampling.
 
 
-*** Label Encoding ***
+*** Label Encoding ***  
 The original labels are string, so a label encoding is done to convert the labels into numbers
 
 
@@ -89,20 +102,21 @@ The result is as following:
 
 Findings:
 1. All experiments suffer from the overfitting, indicated by good training performance, where validation performance does not improve
-![Learning Curve (LSTM + Embedding Layer)](/images/lstm_embedding_learning_curve.png "Learning Curve (LSTM + Embedding Layer)")
-
+| ![Learning Curve (LSTM + Embedding Layer)](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/lstm_embedding_learning_curve.png?raw=true) |
+|:--:| 
+| Learning Curve (LSTM + Embedding Layer) |
 
 2. In general, using Random Forest is better than using LSTM for this use case
 
 
 *** Benchmarking ***
 
-A pre-trained BERT model ([mdhugol/indonesia-bert-sentiment-classification] (https://huggingface.co/mdhugol/indonesia-bert-sentiment-classification)) is employed to predict the sentiment on the test set.
+A pre-trained BERT model by mdhugol/indonesia-bert-sentiment-classification (https://huggingface.co/mdhugol/indonesia-bert-sentiment-classification) is employed to predict the sentiment on the test set.
 
 The pre-trained BERT model's validation accuracy is 63.63%.  
-
 This shows that the performance of the best model created, i.e. the Random Forest with Word2Vec, is comparable to the pre-trained BERT model for this dataset.
 
 On top of the validation accuracy value, the confusion matrix on the test set by the BERT and Random Forest + Word2Vec are similar, where the models are able to predict the negative sentiment better than the neutral and positive class.
-
-![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](/images/cm_bert_rfw2v.png "Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right). The values are in percentage")
+| ![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/cm_bert_rfw2v.png?raw=true) |
+|:--:| 
+| Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right) |
