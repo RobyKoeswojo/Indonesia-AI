@@ -35,7 +35,7 @@ A quick count of the candidates names mentioned in each tweet shows that both ca
 
 Similarly, counting the hashtags with respect to the sentiment of the texts shows that hashtags in the texts are inconclusive to a specific sentiment.
 
-| ![Top 5 hashtags for each sentiment](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/hasthags_exploration.png?raw=true) |
+| ![Top 5 hashtags for each sentiment](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/hasthags_exploration.PNG?raw=true) |
 |:--:| 
 | Top 5 hashtags for each sentiment |
 
@@ -61,7 +61,7 @@ Findings:
 
 ## Text Preprocessing
 
-| ![Text cleaning workflow](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/text_cleaning.png?raw=true) |
+| ![Text cleaning workflow](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/text_cleaning.PNG) |
 |:--:| 
 | Text cleaning workflow |
 
@@ -117,6 +117,6 @@ The pre-trained BERT model's validation accuracy is 63.63%.
 This shows that the performance of the best model created, i.e. the Random Forest with Word2Vec, is comparable to the pre-trained BERT model for this dataset.
 
 On top of the validation accuracy value, the confusion matrix on the test set by the BERT and Random Forest + Word2Vec are similar, where the models are able to predict the negative sentiment better than the neutral and positive class.
-| ![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/cm_bert_rfw2v.png?raw=true) |
+| ![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/cm_bert_rfw2v.PNG) |
 |:--:| 
 | Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right) |
