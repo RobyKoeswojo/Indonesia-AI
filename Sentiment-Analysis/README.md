@@ -121,3 +121,15 @@ On top of the validation accuracy value, the confusion matrix on the test set by
 | ![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/cm_bert_rfw2v.PNG) |
 |:--:| 
 | Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right) |
+
+## Conclusion
+1. For this specific use case, the best model is random forest with word2vec word embedding, which produces validation accuracy of 61.7%
+2. Benchmarking to pretrained models is done, and the best pre-trained model is the BERT model with validation accuracy of 63.63%
+3. The results show that the models suffer from overfitting
+
+## Improvement
+1. Improving the cleaning process
+2. In this case, using deep learning models seem to be not better than machine learning models, so, focus on using machine learning models
+3. Fix the overfitting issue
+4. Run error analysis on the result, and start fixing from the most misclassified class
+
