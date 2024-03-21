@@ -62,7 +62,7 @@ Looking at the WordCloud, it can be seen that some keywords only appear for a ca
 TF-IDF vectorizer is used to vectorize the texts, and LDA (Latent Dirichlet Allocation) is used to reduce the dimension of the embedded words, so that visualization can be made.
 The visualization shows how the embedded words corresponding to each sentiment are spread out evenly -- no specific cluster is made. This may cause the model difficult to classify the sentiments.  
 
-| ![Embedded Words Visualization](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/word_projection.PNG) |
+| ![Embedded Words Visualization](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Sentiment-Analysis/images/word_projection.PNG) |
 |:--:| 
 | Embedded words visualization |
 
