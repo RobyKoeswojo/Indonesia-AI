@@ -62,10 +62,9 @@ Looking at the WordCloud, it can be seen that some keywords only appear for a ca
 TF-IDF vectorizer is used to vectorize the texts, and LDA (Latent Dirichlet Allocation) is used to reduce the dimension of the embedded words, so that visualization can be made.
 The visualization shows how the embedded words corresponding to each sentiment are spread out evenly -- no specific cluster is made. This may cause the model difficult to classify the sentiments.  
 
-| ![Word ](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/word_projection.PNG) |
+| ![Embedded Words Visualization](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/word_projection.PNG) |
 |:--:| 
-| Embedded Words Visualization |
-
+| Embedded words visualization |
 
 
 ## Text Preprocessing
@@ -114,7 +113,7 @@ However, all experiments suffer from overfitting, which can be seen from the lea
    
 | ![Learning Curve for LSTM + Embedding Layer](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/lstm_embedding_learning_curve.png?raw=true) |
 |:--:| 
-| Learning Curve for LSTM + Embedding Layer |
+| Learning curve for LSTM + embedding layer |
 
 
 ## Benchmarking
@@ -128,7 +127,7 @@ The confusion matrix on the predicted validation set by the BERT and Random Fore
 
 | ![Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right)](https://github.com/RobyKoeswojo/Indonesia-AI/blob/sentiment_analysis/Sentiment-Analysis/images/cm_bert_rfw2v.PNG) |
 |:--:| 
-| Confusion Matrix for BERT (left) and Random Forest + Word2Vec (right) |
+| Confusion matrix for BERT (left) and Random Forest + Word2Vec (right) |
 
 ## Conclusion
 - For this specific use case, the best model is random forest with word2vec word embedding, which produces validation accuracy of 61.7%
