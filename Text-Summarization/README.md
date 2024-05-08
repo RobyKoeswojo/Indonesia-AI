@@ -21,10 +21,7 @@ The preprocessing step done for this text summarization task is simply removing 
 
 
 ### Models
-The models explored are pre-trained language models that are available at huggingface:
-	- [BERT2GPT-indonesian-summarization](https://huggingface.co/cahya/bert2gpt-indonesian-summarization)
-	- [FLAN-T5 XL](https://huggingface.co/google/flan-t5-xl)
-	- [FLAN-T5 Small](https://huggingface.co/google/flan-t5-small)
+The models explored are pre-trained language models that are available at huggingface: [BERT2GPT-indonesian-summarization](https://huggingface.co/cahya/bert2gpt-indonesian-summarization), [FLAN-T5 XL](https://huggingface.co/google/flan-t5-xl) and [FLAN-T5 Small](https://huggingface.co/google/flan-t5-small)
 
 
 ### Evaluation
@@ -35,12 +32,12 @@ The main evaluation metrics is Rouge. The rouge-1, rouge-2, rouge-3 and rouge-L 
 
 **Articles and Summaries Length**
 
-| ![Length of words of the articles and summaries at the train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/train_length.PNG) |
+| ![Length of words of the articles and summaries at the train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/train_length.png) |
 |:--:| 
 | Length of words of the articles and summaries at the train set |
 
 
-| ![Length of words of the articles and summaries at the validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/validation_length.PNG) |
+| ![Length of words of the articles and summaries at the validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/validation_length.png) |
 |:--:| 
 | Length of words of the articles and summaries at the validation set |
 
@@ -56,22 +53,22 @@ It can be seen that the length of the articles and summaries in both the trainin
 
 **Top 10 N-gram words**
 
-| ![Top 10 unigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_1gram_train.PNG) |
+| ![Top 10 unigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_1gram_train.png) |
 |:--:| 
 | Top 10 unigram words at train set |
 
 
-| ![Top 10 unigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_1gram_validation.PNG) |
+| ![Top 10 unigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_1gram_validation.png) |
 |:--:| 
 | Top 10 unigram words at validation set |
 
 
-| ![Wordcloud for train data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/wordcloud_train.PNG) |
+| ![Wordcloud for train data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/wordcloud_train.png) |
 |:--:| 
 | Wordcloud for train data |
 
 
-| ![Wordcloud for validation data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/wordcloud_validation.PNG) |
+| ![Wordcloud for validation data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/wordcloud_validation.png) |
 |:--:| 
 | Wordcloud for validation data |
 
@@ -80,12 +77,12 @@ By checking the number of occurences of the unigram words, it can be seen that b
 the conjunction words are dominating. Since the summaries also contain conjuction words, the conjunctions words will not be removed from the articles.
 
 
-| ![Top 10 bigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_2gram_train.PNG) |
+| ![Top 10 bigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_2gram_train.png) |
 |:--:| 
 | Top 10 bigram words at train set |
 
 
-| ![Top 10 bigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_2gram_validation.PNG) |
+| ![Top 10 bigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_2gram_validation.png) |
 |:--:| 
 | Top 10 bigram words at validation set |
 
