@@ -35,12 +35,12 @@ The main evaluation metrics is Rouge. The rouge-1, rouge-2, rouge-3 and rouge-L 
 
 **Articles and Summaries Length**
 
-| ![Length of words of the articles and summaries at the train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/train_length.PNG?raw=true) |
+| ![Length of words of the articles and summaries at the train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/train_length.PNG) |
 |:--:| 
 | Length of words of the articles and summaries at the train set |
 
 
-| ![Length of words of the articles and summaries at the validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/validation_length.PNG?raw=true) |
+| ![Length of words of the articles and summaries at the validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/validation_length.PNG) |
 |:--:| 
 | Length of words of the articles and summaries at the validation set |
 
@@ -56,22 +56,22 @@ It can be seen that the length of the articles and summaries in both the trainin
 
 **Top 10 N-gram words**
 
-| ![Top 10 unigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/top10_1gram_train.PNG?raw=true) |
+| ![Top 10 unigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_1gram_train.PNG) |
 |:--:| 
 | Top 10 unigram words at train set |
 
 
-| ![Top 10 unigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/top10_1gram_validation.PNG?raw=true) |
+| ![Top 10 unigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_1gram_validation.PNG) |
 |:--:| 
 | Top 10 unigram words at validation set |
 
 
-| ![Wordcloud for train data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/wordcloud_train.PNG?raw=true) |
+| ![Wordcloud for train data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/wordcloud_train.PNG) |
 |:--:| 
 | Wordcloud for train data |
 
 
-| ![Wordcloud for validation data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/wordcloud_validation.PNG?raw=true) |
+| ![Wordcloud for validation data](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/wordcloud_validation.PNG) |
 |:--:| 
 | Wordcloud for validation data |
 
@@ -80,12 +80,12 @@ By checking the number of occurences of the unigram words, it can be seen that b
 the conjunction words are dominating. Since the summaries also contain conjuction words, the conjunctions words will not be removed from the articles.
 
 
-| ![Top 10 bigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/top10_2gram_train.PNG?raw=true) |
+| ![Top 10 bigram words at train set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_2gram_train.PNG) |
 |:--:| 
 | Top 10 bigram words at train set |
 
 
-| ![Top 10 bigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/top10_2gram_validation.PNG?raw=true) |
+| ![Top 10 bigram words at validation set](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/top10_2gram_validation.PNG) |
 |:--:| 
 | Top 10 bigram words at validation set |
 
@@ -99,7 +99,7 @@ Similarly, the top 10 bigram words also shows that the conjunction words are the
 ### Indonesian BERT2GPT Summarization
 This pretrained model is a model that has been fine-tuned on the id-liputan6 dataset (the dataset which will be predicted in this task).
 | Architecture       | Encoder (BERT) - Decoder (GPT2) model |
-| Fine-tuned dataset | id_liputan6					         |
+| Fine-tuned dataset | id_liputan6			     |
 
 
 The average rouge score is as following:
@@ -109,7 +109,7 @@ The average rouge score is as following:
 
 
 Samples of generated summaries:
-| ![Samples of generated summaries by Indonesia Bert2bert Summarization](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/generated_sum_bert2bert.PNG?raw=true) |
+| ![Samples of generated summaries by Indonesia Bert2bert Summarization](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/generated_sum_bert2bert.PNG) |
 |:--:| 
 | Samples of generated summaries by Indonesia Bert2bert Summarization |
 
@@ -128,7 +128,7 @@ The average rouge score is as following:
 
 
 Samples of generated summaries:
-| ![Samples of generated summaries by FLAN-T5-XL](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/generated_sum_flant5xl.PNG?raw=true) |
+| ![Samples of generated summaries by FLAN-T5-XL](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/generated_sum_flant5xl.PNG) |
 |:--:| 
 | Samples of generated summaries by FLAN-T5-XL |
 
@@ -163,7 +163,7 @@ The average rouge score is as following:
 
 
 Samples of generated summaries:
-| ![Samples of generated summaries by PEFT-FLAN-T5-Small](https://github.com/RobyKoeswojo/Indonesia-AI/blob/text_summarization/Text-Summarization/images/generated_sum_peftflant5small.PNG?raw=true) |
+| ![Samples of generated summaries by PEFT-FLAN-T5-Small](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Text-Summarization/images/generated_sum_peftflant5small.PNG) |
 |:--:| 
 | Samples of generated summaries by PEFT-FLAN-T5-Small |
 
