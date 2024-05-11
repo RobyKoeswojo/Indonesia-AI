@@ -51,8 +51,7 @@ Some of these convert the audio data to the frequency domain.
 
 | ![Spectrogram of the audio represents the signal strength (loudness) of a signal over time at various frequencies present in a particular waveform](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/spectrogram.png) |
 |:--:| 
-| Spectrogram of the audio represents the signal strength (loudness) of a signal over time at various frequencies present in a particular waveform
-|
+| Spectrogram of the audio represents the signal strength (loudness) of a signal over time at various frequencies present in a particular waveform |
 
 
 | ![Spectrogram in logarithmic scale shows how the loudness of the audio is at the lower frequency range](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/log_spectrogram.png) |
@@ -63,15 +62,13 @@ Some of these convert the audio data to the frequency domain.
 
 | ![MFCC of the audio represents the short-term power spectrum of sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/mfcc.png) |
 |:--:| 
-| MFCC of the audio represents the short-term power spectrum of sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency
-|
+| MFCC of the audio represents the short-term power spectrum of sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency |
 
 
 
 | ![Chroma, also known as chroma vectors or chromagrams, are powerful tools in the field of music information retrieval, used to represent the intensity of the twelve different pitch classes (C, C#, D, D#, E, F, F#, G, G#, A, A#, B) regardless of the octave in which they appear](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/chroma.png) |
 |:--:| 
-| Chroma, also known as chroma vectors or chromagrams, are powerful tools in the field of music information retrieval, used to represent the intensity of the twelve different pitch classes (C, C#, D, D#, E, F, F#, G, G#, A, A#, B) regardless of the octave in which they appear
- |
+| Chroma, also known as chroma vectors or chromagrams, are powerful tools in the field of music information retrieval, used to represent the intensity of the twelve different pitch classes (C, C#, D, D#, E, F, F#, G, G#, A, A#, B) regardless of the octave in which they appear |
 
 
 ## PREPROCESSING
@@ -103,9 +100,7 @@ Result:
 
 | ![Transcription result using Whisper V3 Large](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/whisper_v3_result.PNG) |
 |:--:| 
-| Transcription result using Whisper V3 Large
-|
-
+| Transcription result using Whisper V3 Large |
 
 
 
@@ -124,8 +119,7 @@ Result:
 
 | ![Transcription result using Wav2vec2 Large](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/wav2vev2_large_result.PNG) |
 |:--:| 
-| Transcription result using Wav2vec2 Large
-|
+| Transcription result using Wav2vec2 Large |
 
 
 
@@ -145,8 +139,7 @@ Result:
 
 | ![Transcription result using Wav2vec2 Base](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/wav2vev2_base_result.PNG) |
 |:--:| 
-| Transcription result using Wav2vec2 Base
-|
+| Transcription result using Wav2vec2 Base |
 
 
 ## CONCLUSION

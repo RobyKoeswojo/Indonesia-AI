@@ -139,3 +139,5 @@ The confusion matrix on the predicted validation set by the BERT and Random Fore
 - Try using other machine learning algorithms (not deep learning algorithms) for this use case, and fix the overfitting issue
 - Run error analysis on the predicted results, and focus on fixing from the most misclassified class
 
+This sentiment analysis task is part of the projects done during NLP bootcamp at Indonesia AI.
+Other projects during the NLP bootcamp can be found at https://github.com/RobyKoeswojo/Indonesia-AI
