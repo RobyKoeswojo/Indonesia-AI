@@ -101,7 +101,7 @@ Result:
 | 0.27  | 72.95%    |
 
 
-| ![Transcription result using Whisper V3 Large](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/spectrogram.PNG) |
+| ![Transcription result using Whisper V3 Large](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/whisper_v3_result.PNG) |
 |:--:| 
 | Transcription result using Whisper V3 Large
 |
