@@ -49,8 +49,7 @@ When dealing with audio data, several audio processing techniques can be employe
 Some of these convert the audio data to the frequency domain.
 
 
-| ![Spectrogram of the audio represents the signal strength (loudness) of a signal over time at various frequencies present in a particular waveform
-](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/spectrogram.png) |
+| ![Spectrogram of the audio represents the signal strength (loudness) of a signal over time at various frequencies present in a particular waveform](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/spectrogram.png) |
 |:--:| 
 | Spectrogram of the audio represents the signal strength (loudness) of a signal over time at various frequencies present in a particular waveform
 |
@@ -102,8 +101,7 @@ Result:
 | 0.27  | 72.95%    |
 
 
-| ![Transcription result using Whisper V3 Large
-](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/spectrogram.PNG) |
+| ![Transcription result using Whisper V3 Large](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/spectrogram.PNG) |
 |:--:| 
 | Transcription result using Whisper V3 Large
 |
@@ -124,8 +122,7 @@ Result:
 | 0.349  | 65.09%    |
 
 
-| ![Transcription result using Wav2vec2 Large
-](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/wav2vev2_large_result.PNG) |
+| ![Transcription result using Wav2vec2 Large](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/wav2vev2_large_result.PNG) |
 |:--:| 
 | Transcription result using Wav2vec2 Large
 |
@@ -146,8 +143,7 @@ Result:
 | 0.57  | 42.19%    |
 
 
-| ![Transcription result using Wav2vec2 Base
-](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/wav2vev2_base_result.PNG) |
+| ![Transcription result using Wav2vec2 Base](https://github.com/RobyKoeswojo/Indonesia-AI/blob/main/Automatic-Speech-Recognition/images/wav2vev2_base_result.PNG) |
 |:--:| 
 | Transcription result using Wav2vec2 Base
 |
